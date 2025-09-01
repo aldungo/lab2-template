@@ -1,7 +1,7 @@
 /**
  * Name: [Enter Your Name Here]
  * Date: [Enter Today's Date]
- * Purpose: InClass 1 - Practice with Variables and Print Statements
+ * Purpose: InClass 2 - Practice with Variables and Print Statements
  * This in-class exercise demonstrates String variable declaration, assignment,
  * and output for practice during class time
  */

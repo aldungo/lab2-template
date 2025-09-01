@@ -1,12 +1,12 @@
 /**
  * Name: [Enter Your Name Here]
  * Date: [Enter Today's Date]
- * Purpose: Lab 1 - Introduction to Variables and Print Statements
+ * Purpose: Lab 2 - Introduction to Variables and Print Statements
  * This lab demonstrates basic String variable declaration, assignment,
  * and output using System.out.println()
  */
 
-public class Lab1_FirstName_LastName
+public class Lab2_FirstName_LastName
 {
     public static void main(String[] args)
     {
