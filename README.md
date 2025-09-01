@@ -5,7 +5,7 @@ Lab Assignment #2
 
 Mass Energy
 
-Due date: 9/9/25 at 11:59 pm
+Due date: The evening BEFORE next lab, at 11:59 pm
 
 Purpose: A team of physicists need you to prepare a program to calculate the energy contained within some body of mass. You will be using Einstein’s famous equation E = mc2 to accomplish this task. This program will emphasize the following concepts:
 

@@ -1,0 +1,39 @@
+name: Autograding
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  autograde:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout student code
+        uses: actions/checkout@v3
+
+      - name: Checkout instructor tests
+        uses: actions/checkout@v4
+        with:
+          repository: aldungo/lab2-grader
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: grader
+
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Compile student and instructor test code
+        run: |
+          mkdir -p bin
+          javac -d bin *.java grader/*.java
+
+      - name: Run JUnit tests
+        run: |
+          # Download JUnit Console Launcher if not included in your instructor repo
+          wget https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.9.3/junit-platform-console-standalone-1.9.3.jar
+          java -jar junit-platform-console-standalone-1.9.3.jar --class-path bin --scan-class-path
