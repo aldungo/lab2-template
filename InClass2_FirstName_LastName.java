@@ -1,23 +1,27 @@
 /**
  * Name: [Enter Your Name Here]
  * Date: [Enter Today's Date]
- * Purpose: InClass 2 - Practice with Variables and Print Statements
- * This in-class exercise demonstrates String variable declaration, assignment,
- * and output for practice during class time
+* Purpose: InClass 2 - Calculate force using user input and variables
+* This program demonstrates how to declare variables, read input from the user,
+* perform a calculation using a physics formula, and display the result to the console.
  */
 
-public class InClass1_FirstName_LastName
+// 1. Import and declare a Scanner for user input.
+
+public class InClass2_FirstName_LastName
 {
     public static void main(String[] args) 
     {
-    // Quick In-Class Practice:
-    // 1. Declare a String variable (e.g., greeting, favoriteQuote, or learningGoal)
-    // 2. Assign it a value (like a greeting or your favorite quote)
-    // 3. Print the variable to the console
-    // Example:
-    // String greeting = "Hello, world!";
-    // System.out.println(greeting);
-    // Try your own version below:
-        
+    // In-Class 2 Steps:
+
+    // 2. Declare three variables: mass, acceleration, and force (all double).
+
+    // 3. Prompt the user to enter the mass and assign their input to the mass variable
+    
+    // 4. Prompt the user to enter the acceleration and assign their input to the acceleration variable.
+
+    // 5. Calculate the force by multiplying mass and acceleration.
+
+    // 6. Print the result in a clear sentence showing the force applied to the object.
     }
 }

@@ -1,25 +1,27 @@
 /**
  * Name: [Enter Your Name Here]
  * Date: [Enter Today's Date]
- * Purpose: Lab 2 - Introduction to Variables and Print Statements
- * This lab demonstrates basic String variable declaration, assignment,
- * and output using System.out.println()
+ * Purpose: Lab 2 - Calculate Energy using Physics Equation
+ * 
+ * 
  */
+
+ // Step 3a
 
 public class Lab2_FirstName_LastName
 {
     public static void main(String[] args)
     {
-        // Step 1: Declare a String variable
-        // Choose a meaningful name like: message, statement, whyStatement, etc.
+        // Step 3b
+
+        // Step 4: Declare a constant for the speed of light and variables for mass and energy
+
+        // Step 5: Prompt the user to enter a mass in kg and assign the input to mass
+
+        // Step 6: Calculate the energy using E = mc^2
         
-        // Step 2: Assign a String value to your variable
-        // Write a sentence about why you want to be a programmer
-        
-        // Step 3: Display your String variable using println()
-        
-        // Write your code under the steps above, or start your code goes here:
-        // Step 4: Add at least one comment explaining what your code does or why you wrote it that way
-        
+        // Step 7: Display the result using string concatenation
+
+        // Step 8: Add comments explaining what each part does and why
     }
 }
