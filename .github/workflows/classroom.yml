@@ -18,7 +18,7 @@ jobs:
         with:
           repository: aldungo/lab2-grader
           ref: main
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.INSTRUCTOR_REPO_TOKEN }}
           path: grader
 
       - name: Set up JDK
